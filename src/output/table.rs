@@ -365,7 +365,7 @@ impl<'a, 'f> Table<'a> {
                 Alignment::Right => { cell.add_spaces(padding); cell.append(this_cell); }
             }
 
-            cell.add_spaces(1);
+            cell.add_spaces(2);
         }
 
         cell
